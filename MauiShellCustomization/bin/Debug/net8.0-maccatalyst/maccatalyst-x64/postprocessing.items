@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="MauiShellCustomization.app/Contents/MacOS/MauiShellCustomization">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>MauiShellCustomization.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>MauiShellCustomization.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/eduardzepciuc/Desktop/MauiSamples/MauiShellCustomization/obj/Debug/net8.0-maccatalyst/mtouch-symbols-maccatalyst-x64.list</SymbolFile>
+      <DSymName>MauiShellCustomization.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/eduardzepciuc/Desktop/MauiSamples/MauiShellCustomization</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

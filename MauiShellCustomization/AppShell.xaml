@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="MauiShellCustomization.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:MauiShellCustomization"
+    FlyoutBehavior="Disabled">
+
+	<Shell.ToolbarItems>
+		<ToolbarItem Text="Toolbar 1"
+		             IconImageSource="dotnet_bot.png"/>
+		<ToolbarItem Text="Toolbar 2"
+		             IconImageSource="dotnet_bot.png"/>
+	</Shell.ToolbarItems>
+	<local:CustomTabBar
+		x:DataType="local:AppShell">
+		<Tab Title="Tab1" Icon="dotnet_bot.png">
+			<ShellContent
+				Title="Page1"
+				ContentTemplate="{DataTemplate local:Page1}"
+				Route="Page1" />
+		</Tab>
+		<Tab Title="Tab2" Icon="dotnet_bot.png">
+			<ShellContent
+				Title="Page2"
+				ContentTemplate="{DataTemplate local:Page2}"
+				Route="Page2" />
+		</Tab>
+	</local:CustomTabBar>
+</Shell>

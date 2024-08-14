@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - --entitlements /Users/eduardzepciuc/Desktop/MauiSamples/MauiShellCustomization/obj/Debug/net8.0-maccatalyst/Entitlements.xcent /Users/eduardzepciuc/Desktop/MauiSamples/MauiShellCustomization/bin/Debug/net8.0-maccatalyst/MauiShellCustomization.app
